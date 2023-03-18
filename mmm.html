@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+  <form id="lll">
+    <p><h1>maram</h1></p>
+</form>
+
+
+    <input type="checkbox"  id="Red" onclick="check1()"> 
+    <label>red</label> <br>
+    <input type="checkbox"  id="Blue" onclick="check2()"> 
+    <label>blue</label><br>
+    <input type="checkbox"   id="Green" onclick="check3()"> 
+    <label>green</label><br>
+
+    
+    <script>
+        
+          var x = document.getElementById("Red"); 
+          var y = document.getElementById("Blue");
+          var z = document.getElementById("Green");
+          
+
+          function check1(){
+            if(x.checked)
+            lll.style.color="red";
+            else
+            lll.style.color="non";
+          }
+          function check2(){
+            if(y.checked)
+            lll.style.color="blue";
+            else
+            lll.style.color="non";
+          }
+          function check3(){
+            if(z.checked)
+            lll.style.color="green";
+            else
+            lll.style.color="non";
+          }
+
+          /*function check1(){
+            if(x.checked)
+            {
+            lll.style.color="red";
+            }
+            else if(y.checked)
+            {
+              lll.style.color="blue";
+            }
+            else if(z.checked)
+            {
+              lll.style.color="green"; 
+            }
+            else
+            {
+              lll.style.color="non";
+            }
+          }*/
+             
+    </script>
+</body>
+</html>
